@@ -5,4 +5,4 @@ This repository showcases my HTML practice projects. In this project, I have cre
 ## Live Demo
 
 Check out the live version of my HTML practice project:  
-[Live Demo](https://yourusername.github.io/repository-name/)
+[Live Demo]([https://yourusername.github.io/repository-name/](https://shiftamowla.github.io/Web-Practice/))
