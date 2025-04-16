@@ -1,0 +1,77 @@
+.divn{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: relative;
+    animation: demo 5s linear 2s infinite alternate;
+}
+@keyframes demo{
+    0%{
+        background-color: black;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: purple;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: rgb(71, 1, 1);
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: pink;
+        left: 0px;
+        top: 200px;
+    }
+
+}
+.imgreflection{
+    -webkit-box-reflect: below 20px;
+}
+.page a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    transition: background-color 0.3;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.page a.active{
+    background-color: rgb(32, 32, 255);
+    color: white;
+}
+.news{
+    column-count: 6;
+    column-rule: 1px solid #ddd;
+    column-width: 100px;
+    padding: 8px 16px;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.flexbox div{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 2rem;
+}
+.itm1{
+    background-color: red;
+}
+.itm2{
+    background-color: yellow;
+}
+.itm3{
+    background-color: rgb(92, 92, 246);
+}
+.itm4{
+    background-color: rgb(3, 196, 3);
+}
