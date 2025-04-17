@@ -74,6 +74,7 @@
 }
 .itm4{
     background-color: rgb(3, 196, 3);
+<<<<<<< HEAD
 }
 
 .chart{
@@ -87,4 +88,6 @@
     font-size: 20px;
     padding: 10px;
     margin: 10px;
+=======
+>>>>>>> ace17ee107c652f002375e918874684ab556a1e6
 }
